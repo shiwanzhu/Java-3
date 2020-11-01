@@ -37,10 +37,10 @@ Java实验项目
 ## 三、核心方法  
 1.方法一
 ```
-	public People(int id,String name,String sex){
-		this.id=id;
-		this.name=name;
-		this.sex=sex;
+public People(int id,String name,String sex){
+	this.id=id;
+	this.name=name;
+	this.sex=sex;
 	}
 ```
 2.方法二
@@ -51,15 +51,16 @@ public class Student extends People{
 		super(id, name, sex);
 		
 	}
-3.方法三
 ```
+3.方法三
+```   
 public String toString() {
-		return this.id+" "+this.name+" "+this.sex+" ";
+	return this.id+" "+this.name+" "+this.sex+" ";
 	}
 ```
 4.方法四
 ```
-public class Teacher extends People{
+ public class Teacher extends People{
     String course;
     
 	 public Teacher(int id,String name,String sex){
